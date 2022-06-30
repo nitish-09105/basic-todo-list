@@ -1,0 +1,105 @@
+*,
+*:before,
+*:after{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body{
+   height: 100vh;
+   background:rgb(21, 1, 56);
+}
+.container{
+	width:40%;
+	top:50%;
+	left:50%;
+   	background: white;
+   	border-radius: 15px;
+   	min-width: 450px;
+   	position: absolute;
+   	min-height: 100px;
+   	transform: translate(-50%, -50%);
+   	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading{
+	font-family: sans-serif;
+	font-size: 35px;
+	color: #5e2929;
+}
+
+#newtask{
+   	position: relative;
+   	padding: 30px 20px;
+}
+#newtask h3{
+	margin-bottom: 20px;
+}
+#newtask input{
+   	width: 75%;
+   	height: 45px;
+   	padding: 12px;
+   	color: #111111;
+   	font-weight: 500;
+   	position: relative;
+   	border-radius: 5px;
+   	font-size: 15px;
+   	border: 2px solid #d1d3d4;
+}
+
+#newtask input:focus {
+	outline: none;
+	border-color: #0d75ec;
+}
+#newtask button {
+   	position: relative;
+   	float: right;
+   	font-weight: 500;
+   	font-size: 25px;
+   	background-color: #030339;
+   	border: none;
+   	color: #ffffff;
+   	cursor: pointer;
+   	outline: none;
+   	width: 23%;
+   	height: 45px;
+   	border-radius: 15px;
+}
+#add:hover{
+	height: 48px;
+	font-size: 27px;
+}
+#tasks {
+   	border-radius: 10px;
+   	width: 100%;
+   	position: relative;
+   	background-color: #ffffff;
+   	padding: 30px 20px;
+   	margin-top: 10px;
+}
+
+.task {
+   	border-radius: 5px;
+   	align-items: center;
+   	justify-content: space-between;
+   	border: 1px solid #939697;
+   	cursor: pointer;
+   	background-color: #dadbdf;
+   	height: 50px;
+   	margin-bottom: 8px;
+   	padding: 5px 10px;
+   	display: flex;
+}
+.task span {
+   	font-size: 15px;
+   	font-weight: 400;
+}
+.task button {
+   	background-color: #5e2929;
+   	color: #ffffff;
+   	border: none;
+   	cursor: pointer;
+   	outline: none;
+   	height: 100%;
+   	width: 40px;
+   	border-radius: 10px;
+}
